@@ -1,0 +1,85 @@
+#heading{
+		color: #E6CD4F;
+}
+#fname{
+		width: 260px;
+		padding: 8px 16px;
+		border: 1px solid #ccc;
+}
+#passw{
+		width: 260px;
+		height : 35px;
+		border: 1px solid #ccc;
+		margin: 8px;//Width eka between button and password
+}
+#div{
+	background-color: #dbdbdb;
+	width: 45%;
+	border: 1px solid #black;
+	border-radius: 4px;
+}
+#lg{
+	background-color: #E6CD4F;
+	font-family: bold;
+	font-size:17px;
+	width: 100px;
+	}
+#fr{
+		background-color:  #E6CD4F;
+		font-family: bold;
+		font-size:17px;
+}	
+#Need{
+		color: #025ff5;
+}
+.footer{
+   position: fixed;
+   left: 0;
+   bottom: 0;
+   width: 100%;
+   color: black;
+   text-align: center;
+   background-color:#E6CD4F;
+   height:50px;
+   font-family:calibri;
+}
+
+body{
+	margin:0px;
+	height:600px;
+	background-color:#111111;
+}
+
+
+.topnav {
+  overflow: hidden;
+  background-color: #E6CD4F;
+}
+
+.topnav a {
+  float: left;
+  display: block;
+  color: black;
+  text-align: center;
+  padding: 14px 15px;
+  text-decoration: none;
+  font-size: 17px;
+  font-family:calibri;
+}
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+.topnav a.active {
+  background-color: #E6CD4F;
+  color: white;
+  @media screen and (max-width: 300px)
+}
+
+
+.img01{
+   position: absolute;
+   left:1570px;
+   top:4px;
+}

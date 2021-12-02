@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title> HOME </title>
+<link rel="stylesheet" href="CSS/homestyle.css">
+
+</head>
+<body>
+
+
+
+
+<div class="topnav">
+  <a class="active" href="Home.html">Home</a>
+  <a href="Vote.html">Vote now</a>
+  <a href="CandidateLogin.html">Candidate</a>
+  <a href="UserLogin.html">User</a>
+  <a href="Payment.html">Real-Time Visualization</a>
+  <a href="Contact.html">Contact us</a>
+  <a href="Aboutus.html">About us</a>
+  <a href="Search.html">Search Page</a>
+ </div>
+ <div class="img01">
+<img src="Img/01.png" alt="Onilne National Polling System">
+</div>
+
+
+<div class="next">
+ <button class="button3" onclick="changeImage()">Slide</button>
+</div>
+
+
+
+<br>
+<br><br>
+<br>
+<div class="para01">
+<p> WELCOME TO</p>
+</div>
+
+<div class="para02">
+<p> ONLINE NATIONAL POLLING SYSTEM</p>
+</div>
+
+<div class="img02">
+<img src="Img/02.png" id="mainImage"  height="550px" width="500px">
+<script type="text/javascript">
+	var myImage=document.getElementById("mainImage");
+	var imageArray=["Img/02.png","Img/aa.png","Img/bb.png"];
+	var imageIndex=1;
+	
+	function changeImage(){
+	myImage.setAttribute("src",imageArray[imageIndex]);
+	imageIndex++;
+	if(imageIndex>2){
+		imageIndex=0;
+	}
+	
+}
+</script>
+</div>
+
+<div class="para03">
+<p> Get started with "Online National Polling System"<br> </P>
+</div>
+
+
+<div class="para04">
+<p> The Online National Polling System is an online voting site for national voting purposes. <br>
+A user will register by using his Fist Name, Last name,
+National Identification card and the password. A Candidate can register to the <br>
+system by providing
+his/her information but the Election Commission has to approve his/her profile to publish it in the web page. <br>
+The site is easy to use, navigate and the site is updated in real time.
+Subsequently a voter can vote to any Candidate which the user finds desirable.
+The candidates can check their progress in real time. <br>
+Visitors can check the results from Real-Time visualization page.
+ <br><br><br><br>
+<br><br><br>
+
+ 
+
+ <button class="button button1"><a href="UserSignup.html">Register now</a></button>
+ <button class="button button2"><a href="UserLogin.html">Log-in</a></button>
+
+ 
+ 
+ </P>
+</div>
+
+
+
+
+
+
+<div class="footer">
+<footer>
+
+  <p>All Rights reserved 2019 --- Contact information: <a href="www.onilnepollingsystem.com">www.onilnepollingsystem.lk </a></p>
+ </footer>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</body>
